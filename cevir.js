@@ -58,7 +58,7 @@ function webp2mp4File(path) {
     })
 }
 
-
+if (Config.WORKTYPE == 'private') {
 
 Asena.addCommand({pattern: 'cevir$', fromMe: true, desc: Lang.STİCKER_DESC}, (async (message, match) => {
         const mid = message.jid
@@ -150,3 +150,4 @@ else if (Config.WORKTYPE == 'public') {
         })
     }));
 
+}
