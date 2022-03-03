@@ -20,6 +20,30 @@ function Agent(ST) { return ST.split(' ').map(letter=>String.fromCharCode(parseI
 const text = Agent(ST)
 
 if (wk.WORKTYPE == 'private') {
+
+Asena.addCommand({pattern: 'lol$', fromMe: true, desc: LOL}, (async (message, match) => {    
+
+        var r_text = new Array ();
+    
+        r_text[0] = "_Bir rakip katledildi!_";
+        r_text[1] = "_Takımından biri katledildi..._";
+        r_text[2] = "İKİDE İKİ!";
+        r_text[3] = "Rakip ikiledi !";
+        r_text[4] = "ÜÇTE ÜÇÇ !!!";
+        r_text[5] = "_Rakip üçledi... 😔_";
+        r_text[6] = "💥💢_DÖRRTTTE DÖÖRTT !!!_😱🔥";
+        r_text[7] = "_Rakip DÖRTLEDİ !_";
+        r_text[8] = "🔥🔥💨 _B E Ş T E BEEEEŞŞŞŞŞ_ 💥👆🏻🌪️⚡";
+        r_text[9] = "_...katliam_";
+        r_text[10] = " _Minyonların harekete geçmesine 30 saniye..._ 🦔🐣🐥";
+        r_text[11] = "_☠️🔮😈RUUUHUN BENİM OLUUCAAAAK :) 😈🔮☠️_";
+    
+        var i = Math.floor(12*Math.random())
+
+        await message.client.sendMessage(message.jid,`*${r_text[i]}*`, MessageType.text);
+
+    }));
+
     Asena.addCommand({pattern: 'kuzey$', fromMe: true, desc: kuz, warn: text}, (async (message, match) => {    
 
         var r_text = new Array ();
@@ -71,28 +95,7 @@ if (wk.WORKTYPE == 'private') {
 
     }));
 
-     Asena.addCommand({pattern: 'lol$', fromMe: true, desc: LOL}, (async (message, match) => {    
-
-        var r_text = new Array ();
     
-        r_text[0] = "_Bir rakip katledildi!_";
-        r_text[1] = "*_Takımından biri katledildi..._*";
-        r_text[2] = "*İKİDE İKİ!*";
-        r_text[3] = "*Rakip ikiledi !*";
-        r_text[4] = "*ÜÇTE ÜÇÇ !!!*";
-        r_text[5] = "_Rakip üçledi... 😔_";
-        r_text[6] = "*_💥💢DÖRRTTTE DÖÖRTT !!!* 😱🔥_";
-        r_text[7] = "_Rakip DÖRTLEDİ !_";
-        r_text[8] = "🔥🔥💨 _B E Ş T E BEEEEŞŞŞŞŞ_ 💥👆🏻🌪️⚡";
-        r_text[9] = "_...katliam_";
-        r_text[10] = " _Minyonların harekete geçmesine 30 saniye... 🦔🐣🐥_";
-        r_text[11] = "_☠️🔮😈RUUUHUN BENİM OLUUCAAAAK :) 😈🔮☠️_";
-    
-        var i = Math.floor(12*Math.random())
-
-        await message.client.sendMessage(message.jid,`*${r_text[i]}*`, MessageType.text);
-
-    }));
 
     Asena.addCommand({pattern: 'kardes$', fromMe: true, desc: kar}, (async (message, match) => {    
 
@@ -707,16 +710,16 @@ else if (wk.WORKTYPE == 'public') {
         var r_text = new Array ();
     
         r_text[0] = "_Bir rakip katledildi!_";
-        r_text[1] = "*_Takımından biri katledildi..._*";
-        r_text[2] = "*İKİDE İKİ!*";
-        r_text[3] = "*Rakip ikiledi !*";
-        r_text[4] = "*ÜÇTE ÜÇÇ !!!*";
+        r_text[1] = "_Takımından biri katledildi..._";
+        r_text[2] = "İKİDE İKİ!";
+        r_text[3] = "Rakip ikiledi !";
+        r_text[4] = "ÜÇTE ÜÇÇ !!!";
         r_text[5] = "_Rakip üçledi... 😔_";
-        r_text[6] = "*_💥💢DÖRRTTTE DÖÖRTT !!!* 😱🔥_";
+        r_text[6] = "💥💢_DÖRRTTTE DÖÖRTT !!!_😱🔥";
         r_text[7] = "_Rakip DÖRTLEDİ !_";
         r_text[8] = "🔥🔥💨 _B E Ş T E BEEEEŞŞŞŞŞ_ 💥👆🏻🌪️⚡";
         r_text[9] = "_...katliam_";
-        r_text[10] = " _Minyonların harekete geçmesine 30 saniye... 🦔🐣🐥_";
+        r_text[10] = " _Minyonların harekete geçmesine 30 saniye..._ 🦔🐣🐥";
         r_text[11] = "_☠️🔮😈RUUUHUN BENİM OLUUCAAAAK :) 😈🔮☠️_";
     
         var i = Math.floor(12*Math.random())
@@ -1405,16 +1408,16 @@ else if (wk.WORKTYPE == 'public') {
         var r_text = new Array ();
     
         r_text[0] = "_Bir rakip katledildi!_";
-        r_text[1] = "*_Takımından biri katledildi..._*";
-        r_text[2] = "*İKİDE İKİ!*";
-        r_text[3] = "*Rakip ikiledi !*";
-        r_text[4] = "*ÜÇTE ÜÇÇ !!!*";
+        r_text[1] = "_Takımından biri katledildi..._";
+        r_text[2] = "İKİDE İKİ!";
+        r_text[3] = "Rakip ikiledi !";
+        r_text[4] = "ÜÇTE ÜÇÇ !!!";
         r_text[5] = "_Rakip üçledi... 😔_";
-        r_text[6] = "*_💥💢DÖRRTTTE DÖÖRTT !!!* 😱🔥_";
+        r_text[6] = "💥💢_DÖRRTTTE DÖÖRTT !!!_😱🔥";
         r_text[7] = "_Rakip DÖRTLEDİ !_";
         r_text[8] = "🔥🔥💨 _B E Ş T E BEEEEŞŞŞŞŞ_ 💥👆🏻🌪️⚡";
         r_text[9] = "_...katliam_";
-        r_text[10] = " _Minyonların harekete geçmesine 30 saniye... 🦔🐣🐥_";
+        r_text[10] = " _Minyonların harekete geçmesine 30 saniye..._ 🦔🐣🐥";
         r_text[11] = "_☠️🔮😈RUUUHUN BENİM OLUUCAAAAK :) 😈🔮☠️_";
     
         var i = Math.floor(12*Math.random())
