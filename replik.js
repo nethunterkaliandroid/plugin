@@ -76,14 +76,14 @@ if (wk.WORKTYPE == 'private') {
         var r_text = new Array ();
     
         r_text[0] = "_Bir rakip katledildi!_";
-        r_text[1] = "_*Takımından biri katledildi...*_";
+        r_text[1] = "*_Takımından biri katledildi..._*";
         r_text[2] = "*İKİDE İKİ!*";
         r_text[3] = "*Rakip ikiledi !*";
         r_text[4] = "*ÜÇTE ÜÇÇ !!!*";
         r_text[5] = "_Rakip üçledi... 😔_";
-        r_text[6] = "*_💥💢DÖRRTTTE DÖÖRTT !!!😱🔥_";
+        r_text[6] = "*_💥💢DÖRRTTTE DÖÖRTT !!!* 😱🔥_";
         r_text[7] = "_Rakip DÖRTLEDİ !_";
-        r_text[8] = "🔥🔥💨_B E Ş T E BEEEEŞŞŞŞŞ_💥👆🏻🌪️⚡";
+        r_text[8] = "🔥🔥💨 _B E Ş T E BEEEEŞŞŞŞŞ_ 💥👆🏻🌪️⚡";
         r_text[9] = "_...katliam_";
         r_text[10] = " _Minyonların harekete geçmesine 30 saniye... 🦔🐣🐥_";
         r_text[11] = "_☠️🔮😈RUUUHUN BENİM OLUUCAAAAK :) 😈🔮☠️_";
@@ -707,14 +707,14 @@ else if (wk.WORKTYPE == 'public') {
         var r_text = new Array ();
     
         r_text[0] = "_Bir rakip katledildi!_";
-        r_text[1] = "_*Takımından biri katledildi...*_";
+        r_text[1] = "*_Takımından biri katledildi..._*";
         r_text[2] = "*İKİDE İKİ!*";
         r_text[3] = "*Rakip ikiledi !*";
         r_text[4] = "*ÜÇTE ÜÇÇ !!!*";
         r_text[5] = "_Rakip üçledi... 😔_";
-        r_text[6] = "*_💥💢DÖRRTTTE DÖÖRTT !!!😱🔥_";
+        r_text[6] = "*_💥💢DÖRRTTTE DÖÖRTT !!!* 😱🔥_";
         r_text[7] = "_Rakip DÖRTLEDİ !_";
-        r_text[8] = "🔥🔥💨_B E Ş T E BEEEEŞŞŞŞŞ_💥👆🏻🌪️⚡";
+        r_text[8] = "🔥🔥💨 _B E Ş T E BEEEEŞŞŞŞŞ_ 💥👆🏻🌪️⚡";
         r_text[9] = "_...katliam_";
         r_text[10] = " _Minyonların harekete geçmesine 30 saniye... 🦔🐣🐥_";
         r_text[11] = "_☠️🔮😈RUUUHUN BENİM OLUUCAAAAK :) 😈🔮☠️_";
@@ -1405,14 +1405,14 @@ else if (wk.WORKTYPE == 'public') {
         var r_text = new Array ();
     
         r_text[0] = "_Bir rakip katledildi!_";
-        r_text[1] = "_*Takımından biri katledildi...*_";
+        r_text[1] = "*_Takımından biri katledildi..._*";
         r_text[2] = "*İKİDE İKİ!*";
         r_text[3] = "*Rakip ikiledi !*";
         r_text[4] = "*ÜÇTE ÜÇÇ !!!*";
         r_text[5] = "_Rakip üçledi... 😔_";
-        r_text[6] = "*_💥💢DÖRRTTTE DÖÖRTT !!!😱🔥_";
+        r_text[6] = "*_💥💢DÖRRTTTE DÖÖRTT !!!* 😱🔥_";
         r_text[7] = "_Rakip DÖRTLEDİ !_";
-        r_text[8] = "🔥🔥💨_B E Ş T E BEEEEŞŞŞŞŞ_💥👆🏻🌪️⚡";
+        r_text[8] = "🔥🔥💨 _B E Ş T E BEEEEŞŞŞŞŞ_ 💥👆🏻🌪️⚡";
         r_text[9] = "_...katliam_";
         r_text[10] = " _Minyonların harekete geçmesine 30 saniye... 🦔🐣🐥_";
         r_text[11] = "_☠️🔮😈RUUUHUN BENİM OLUUCAAAAK :) 😈🔮☠️_";
